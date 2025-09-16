@@ -1,0 +1,8 @@
+<div class="container student-detail">
+  <div *ngIf="student">
+    <h2>{{ student.name }}</h2>
+    <p>Email: {{ student.email }}</p>
+    <p>Course: {{ student.course }}</p>
+    <a class="btn btn-secondary" routerLink="/students">Back to Students</a>
+  </div>
+</div>

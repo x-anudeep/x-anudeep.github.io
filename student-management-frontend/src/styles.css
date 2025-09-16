@@ -1,0 +1,164 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  background-color: #D9D9D9; /* Light Gray background */
+  color: #898989; /* Medium Gray text color */
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #4DFFBC; /* Mint Green for headers */
+}
+
+a {
+  color: #4DFFBC; /* Mint Green for links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF4D4D; /* Bright Red on hover */
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #FF4D4D; /* Bright Red button */
+  border-color: #FF4D4D; 
+}
+
+.btn-primary:hover {
+  background-color: #D94040; /* Darker red on hover */
+  border-color: #D94040;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #898989; /* Medium Gray for Navbar */
+}
+
+.navbar a {
+  color: white !important; /* White text for navbar links */
+}
+
+.navbar a:hover {
+  color: #4DFFBC !important; /* Mint Green on hover */
+}
+
+/* Card Component Styles */
+.card {
+  background-color: #FFFFFF; /* White background for cards */
+  border: 1px solid #D9D9D9; /* Light Gray border */
+}
+
+.card:hover {
+  border-color: #FF4D4D; /* Bright Red border on hover */
+}
+
+.card-title {
+  color: #4DFFBC; /* Mint Green for card titles */
+}
+
+.card-text {
+  color: #898989; /* Medium Gray for card text */
+}
+
+/* Additional Custom Styles */
+.container {
+  max-width: 1200px;
+}
+
+.navbar-toggler {
+  border-color: #4DFFBC; /* Mint Green for toggler button */
+}
+/* Student Details Page Styles */
+.student-detail {
+  background-color: #D9D9D9; /* Light Gray background */
+  color: #898989; /* Medium Gray text */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.student-detail h2 {
+  color: #4DFFBC; /* Mint Green header */
+}
+
+.student-detail p {
+  color: #898989; /* Medium Gray for text */
+}
+
+.student-detail .btn-secondary {
+  background-color: #FF4D4D; /* Bright Red button */
+  border-color: #FF4D4D;
+}
+
+.student-detail .btn-secondary:hover {
+  background-color: #D94040; /* Darker red on hover */
+  border-color: #D94040;
+}
+
+/* Student Form Page Styles */
+.student-form {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.student-form h2 {
+  color: #4DFFBC; /* Mint Green for header */
+}
+
+.student-form .form-control {
+  border-color: #D9D9D9; /* Light Gray borders */
+}
+
+.student-form .form-control:focus {
+  border-color: #4DFFBC; /* Mint Green border on focus */
+  box-shadow: 0px 0px 5px rgba(77, 255, 188, 0.5);
+}
+
+.student-form .btn-primary {
+  background-color: #FF4D4D; /* Bright Red for button */
+  border-color: #FF4D4D;
+}
+
+.student-form .btn-primary:hover {
+  background-color: #D94040; /* Darker red on hover */
+  border-color: #D94040;
+}
+
+/* Student List Page Styles */
+.student-list {
+  background-color: #D9D9D9;
+  padding: 20px;
+}
+
+.student-list .card {
+  background-color: #FFFFFF; /* White background for each card */
+  border: 1px solid #D9D9D9; /* Light Gray border */
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.student-list .card-title {
+  color: #4DFFBC; /* Mint Green for card titles */
+}
+
+.student-list .card-body {
+  color: #898989; /* Medium Gray for card body text */
+}
+
+.student-list .card:hover {
+  border-color: #FF4D4D; /* Bright Red border on hover */
+}
+
+.student-list .btn-primary {
+  background-color: #FF4D4D; /* Bright Red for button */
+  border-color: #FF4D4D;
+}
+
+.student-list .btn-primary:hover {
+  background-color: #D94040; /* Darker red on hover */
+  border-color: #D94040;
+}
